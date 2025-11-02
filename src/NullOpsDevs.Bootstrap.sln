@@ -4,6 +4,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullOpsDevs.Bootstrap", "Nu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullOpsDevs.Bootstrap.Example", "NullOpsDevs.Bootstrap.Example\NullOpsDevs.Bootstrap.Example.csproj", "{2518CCAD-D710-4D72-A3DE-D2A311A9FD56}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CI-CD", "CI-CD", "{816B745E-8A54-4CE9-A285-945EC121D5A9}"
+	ProjectSection(SolutionItems) = preProject
+		..\.github\workflows\docs-workflow.yml = ..\.github\workflows\docs-workflow.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
