@@ -1,6 +1,8 @@
 # 🚀 NullOpsDevs.Bootstrap
 
-[![NuGet](https://img.shields.io/badge/nuget-1.0.0-blue.svg)](https://www.nuget.org/packages/NullOpsDevs.Bootstrap/)
+[![NuGet](https://img.shields.io/nuget/v/NullOpsDevs.Bootstrap)](https://www.nuget.org/packages/NullOpsDevs.Bootstrap/)
+[![NuGet](https://img.shields.io/nuget/vpre/NullOpsDevs.Bootstrap
+)](https://www.nuget.org/packages/NullOpsDevs.Bootstrap/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![.NET](https://img.shields.io/badge/.NET-8.0-purple.svg)](https://dotnet.microsoft.com/)
 [![.NET](https://img.shields.io/badge/.NET-9.0-purple.svg)](https://dotnet.microsoft.com/)
