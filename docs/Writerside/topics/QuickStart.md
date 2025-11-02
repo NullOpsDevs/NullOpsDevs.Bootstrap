@@ -5,13 +5,13 @@
 <tabs>
     <tab id="dotnet-CLI-install" title="dotnet CLI">
         <code-block lang="shell">
-            dotnet add Void.Libs.Bootstrap
+            dotnet add NullOpsDevs.Bootstrap
         </code-block>
     </tab>
     <tab id="csproj-install" title=".csproj">
         <code-block lang="xml">
             &lt;ItemGroup&gt;
-              &lt;PackageReference Include=&quot;Void.Libs.Bootstrap&quot; Version=&quot;&lt;...&gt;&quot; /&gt;
+              &lt;PackageReference Include=&quot;NullOpsDevs.Bootstrap&quot; Version=&quot;&lt;...&gt;&quot; /&gt;
             &lt;/ItemGroup&gt;
         </code-block>
     </tab>
