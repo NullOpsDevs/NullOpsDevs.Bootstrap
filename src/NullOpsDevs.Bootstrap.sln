@@ -7,6 +7,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CI-CD", "CI-CD", "{816B745E-8A54-4CE9-A285-945EC121D5A9}"
 	ProjectSection(SolutionItems) = preProject
 		..\.github\workflows\docs-workflow.yml = ..\.github\workflows\docs-workflow.yml
+		..\.github\workflows\nuget-publish.yml = ..\.github\workflows\nuget-publish.yml
 	EndProjectSection
 EndProject
 Global
