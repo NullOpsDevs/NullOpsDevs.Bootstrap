@@ -1,0 +1,52 @@
+﻿<!--suppress CheckTagEmptyBody -->
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <OutputType>Library</OutputType>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <!-- Documentation + debug symbols -->
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <DebugType>full</DebugType>
+        <DocumentationFile>bin\Release\NullOpsDevs.Bootstrap.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <!-- NuGet configuration -->
+    <PropertyGroup>
+        <Version>0.1-dev</Version>
+        <IsPackable>true</IsPackable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Authors>NullOpsDevs</Authors>
+        <Description>Lightweight package to bootstrap your service.</Description>
+        <Copyright>2025 NullOpsDevs, 0x25CBFC4F</Copyright>
+        <PackageProjectUrl>https://github.com/NullOpsDevs/NullOpsDevs.Bootstrap</PackageProjectUrl>
+        <PackageLicenseUrl>https://opensource.org/license/mit</PackageLicenseUrl>
+        <PackageIcon>icon.png</PackageIcon>
+        <RepositoryUrl>https://github.com/NullOpsDevs/NullOpsDevs.Bootstrap</RepositoryUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <!-- Icon and README -->
+    <ItemGroup>
+        <None Include="..\resources\icon.png">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+            <Link>icon.png</Link>
+        </None>
+
+        <Content Include="..\..\README.md">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+            <Link>README.md</Link>
+        </Content>
+    </ItemGroup>
+    
+    <ItemGroup>
+      <PackageReference Include="JetBrains.Annotations" Version="2024.3.0" />
+    </ItemGroup>
+
+</Project>

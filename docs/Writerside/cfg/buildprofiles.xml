@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE buildprofiles SYSTEM "https://resources.jetbrains.com/writerside/1.0/build-profiles.dtd">
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <variables>
+        <primary-color>blueberry</primary-color>
+        <resizable-sidebar>true</resizable-sidebar>
+        <noindex-content>false</noindex-content>
+    </variables>
+
+    <build-profile instance="v">
+        <sitemap priority="1" change-frequency="monthly" />
+    </build-profile>
+
+    <footer>
+        <copyright>0x25CBFC4F</copyright>
+        <link href="https://github.com/0x25CBFC4F/Void.Libs.Bootstrap">GitHub Repository</link>
+    </footer>
+
+</buildprofiles>

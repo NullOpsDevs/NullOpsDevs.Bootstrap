@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullOpsDevs.Bootstrap", "NullOpsDevs.Bootstrap\NullOpsDevs.Bootstrap.csproj", "{7DF75160-4773-4B69-A7C8-5AE8092DAEB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullOpsDevs.Bootstrap.Example", "NullOpsDevs.Bootstrap.Example\NullOpsDevs.Bootstrap.Example.csproj", "{2518CCAD-D710-4D72-A3DE-D2A311A9FD56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DF75160-4773-4B69-A7C8-5AE8092DAEB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF75160-4773-4B69-A7C8-5AE8092DAEB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF75160-4773-4B69-A7C8-5AE8092DAEB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF75160-4773-4B69-A7C8-5AE8092DAEB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2518CCAD-D710-4D72-A3DE-D2A311A9FD56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2518CCAD-D710-4D72-A3DE-D2A311A9FD56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2518CCAD-D710-4D72-A3DE-D2A311A9FD56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2518CCAD-D710-4D72-A3DE-D2A311A9FD56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
